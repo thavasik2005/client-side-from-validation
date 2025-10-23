@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(135deg, #74abe2, #5563de);
+  min-height: 100vh;
+  color: #333;
+}
+.card {
+  background: rgba(255, 255, 255, 0.92);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #5563de;
+  font-size: 2rem;
+}
+.form-control.is-valid {
+  border-color: #28a745;
+  box-shadow: none;
+}
+.form-control.is-invalid {
+  border-color: #dc3545;
+  box-shadow: none;
+}
+.invalid-feedback {
+  font-weight: bold;
+}
